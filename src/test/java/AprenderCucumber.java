@@ -2,12 +2,12 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.concurrent.Callable;
 
 import org.junit.Assert;
 
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 
 public class AprenderCucumber {
@@ -75,6 +75,28 @@ public class AprenderCucumber {
 		String dataFormatada= format.format(entrega);
 		Assert.assertEquals(data, dataFormatada);
 	}
+	
+//Desafio: REGEX
+	@Dado("^que o ticket( especial)? é (A.\\d{3})$")
+	public void queOTicketÉAF(String tipo, String arg1) {
+	}
+
+	@Dado("^que o valor da passagem é R\\$ (\\d+),(\\d+)$")
+	public void queOValorDaPassagemÉR$(int int1, int int2) {
+	}
+	@Dado("^que o nome do passageiro é \"(.{5,20})\"$")
+	public void queONomeDoPassageiroÉ(String string) {
+	}
+	@Dado("^que o telefone do passageiro é (9\\d{3}-\\d{4})$")
+	public void queOTelefoneDoPassageiroÉ(String arg1) {
+	}
+	@Quando("^criar os steps")
+	public void criarOsSteps() {
+	}
+	@Então("^o teste vai funcionar")
+	public void oTesteVaiFuncionar() {
+	}
+
 
 
 
