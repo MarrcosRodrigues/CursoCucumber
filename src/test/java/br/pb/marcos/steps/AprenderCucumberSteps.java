@@ -1,3 +1,4 @@
+package br.pb.marcos.steps;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -10,7 +11,7 @@ import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 
-public class AprenderCucumber {
+public class AprenderCucumberSteps {
 	
 	//Cenario: Deve executar especificacao 
 	@Dado("que criei o arquivo corretamente")
@@ -43,14 +44,14 @@ public class AprenderCucumber {
 	
 	//Cenario: Deve calcular atraso na entrega
 	Date entrega = new Date();
-	@Dado("que a entrega é dia {data}")
+	@Dado("que a entrega é dia {int}")
 	public void queAEntregaÉDia(Date data) {
 		entrega = data;
 		System.out.println(entrega);
 	}
 	
 //	@Quando("a entrega atrasar em {int} dias")
-	@Quando("a entrega atrasar em (\\d+) (dia!dias!mes!meses)$")
+	@Quando("^a entrega atrasar em (\\d+) (dia!dias!mes!meses)$")
 	public void aEntregaAtrasarEmDias(Integer int1, String tempo) {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(entrega);

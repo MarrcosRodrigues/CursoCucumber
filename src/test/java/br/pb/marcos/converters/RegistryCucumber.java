@@ -1,3 +1,4 @@
+package br.pb.marcos.converters;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -19,7 +20,7 @@ public class RegistryCucumber implements TypeRegistryConfigurer {
 	@Override
 	public void configureTypeRegistry(TypeRegistry registry) {
 		registry.defineParameterType(
-				new ParameterType<>("data", ".*", Date.class, (String s) -> {
+				new ParameterType<>("int", "data", Date.class, (String s) -> {
 					DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 					try {
 						Date retorno  = format.parse(s);
