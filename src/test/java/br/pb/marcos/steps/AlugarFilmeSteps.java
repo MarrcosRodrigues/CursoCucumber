@@ -5,6 +5,7 @@ import static br.pb.marcos.utils.DateUtils.obterDataDiferencaDias;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
 
 import org.junit.Assert;
 
@@ -12,6 +13,7 @@ import br.pb.marcos.entidades.Filme;
 import br.pb.marcos.entidades.NotaAluguel;
 import br.pb.marcos.entidades.TipoAluguel;
 import br.pb.marcos.servicos.AluguelService;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
@@ -22,7 +24,7 @@ public class AlugarFilmeSteps {
 	private AluguelService aluguel = new AluguelService();
 	private NotaAluguel nota;
 	private String erro;
-	private TipoAluguel tipoAluguel = TipoAluguel.COMUM;
+	private TipoAluguel tipoAluguel;
 	
 	@Dado("^um filme com estoque de (\\d+) unidades$")
 	public void umFilmeComEstoqueDeUnidades(int int1) {
@@ -35,6 +37,17 @@ public class AlugarFilmeSteps {
 		filme.setAluguel(int1);
 	}
 
+	@Dado("um filme")
+	public void umFilme(DataTable table) {
+		Map<String, String> map = table.asMap(String.class, String.class);
+		filme = new Filme();
+		filme.setEstoque(Integer.parseInt(map.get("estoque")));
+		filme.setAluguel(Integer.parseInt(map.get("preco")));
+		String tipo = map.get("tipo");
+		tipoAluguel = tipo.equals("semanal")? TipoAluguel.SEMANAL: tipo.equals("extendido")? TipoAluguel.EXTENDIDO: TipoAluguel.COMUM;
+	}
+	
+	
 	@Quando("^alugar$")
 	public void alugar() {
 		try {
