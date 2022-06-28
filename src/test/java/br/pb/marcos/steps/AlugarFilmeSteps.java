@@ -4,15 +4,14 @@ import static br.pb.marcos.utils.DateUtils.obterDataDiferencaDias;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 
 import org.junit.Assert;
 
 import br.pb.marcos.entidades.Filme;
 import br.pb.marcos.entidades.NotaAluguel;
+import br.pb.marcos.entidades.TipoAluguel;
 import br.pb.marcos.servicos.AluguelService;
-import br.pb.marcos.utils.DateUtils;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
@@ -23,7 +22,7 @@ public class AlugarFilmeSteps {
 	private AluguelService aluguel = new AluguelService();
 	private NotaAluguel nota;
 	private String erro;
-	private String tipoAluguel;
+	private TipoAluguel tipoAluguel = TipoAluguel.COMUM;
 	
 	@Dado("^um filme com estoque de (\\d+) unidades$")
 	public void umFilmeComEstoqueDeUnidades(int int1) {
@@ -68,7 +67,7 @@ public class AlugarFilmeSteps {
 // Cenario: Deve dar condicoes especiais para categoria extendida
 	@Dado("que o tipo do aluguel seja (.*)$")
 	public void queoTipoDoAluguelSejaExtendido(String tipo) {
-		tipoAluguel = tipo;
+		tipoAluguel = tipo.equals("semanal")? TipoAluguel.SEMANAL: tipo.equals("extendido")? TipoAluguel.EXTENDIDO: TipoAluguel.COMUM;
 	}
 
 	@Entao("^a data de entrega sera em (\\d+) dias?$")
