@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		features = "src/test/resources/features/alugar_filme.feature",
 //		features = "src/test/resources/features/",
 		glue = "br.pb.marcos.steps",
-		plugin = "pretty",
+		plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
 		tags = {},
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE,
