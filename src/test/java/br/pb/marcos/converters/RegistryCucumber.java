@@ -10,10 +10,9 @@ import io.cucumber.core.api.TypeRegistryConfigurer;
 import io.cucumber.cucumberexpressions.ParameterType;
 
 public class RegistryCucumber implements TypeRegistryConfigurer {
-
+	
 	@Override
 	public Locale locale() {
-		// TODO Auto-generated method stub
 		return Locale.ENGLISH;
 	}
 

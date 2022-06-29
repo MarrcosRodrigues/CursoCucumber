@@ -12,12 +12,12 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		glue = "br.pb.marcos.steps",
 		plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
 		tags = {},
-		monochrome = true,
+		monochrome = false,
 		snippets = SnippetType.CAMELCASE,
 		dryRun = false,
 		strict = false
 		)
-public class Runner {
+public class RunnerTest {
 	
 	
 }
