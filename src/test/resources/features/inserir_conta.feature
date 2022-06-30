@@ -1,24 +1,16 @@
 #language: pt
 @funcionais
 Funcionalidade: Cadastro de contas
-
-Como um usuário 
-Gostaria de cadastrar contas
-Para que eu possa distribuir meu dinheiro de uma forma mais organizada
+	Como um usuário 
+	Gostaria de cadastrar contas
+	Para que eu possa distribuir meu dinheiro de uma forma mais organizada
 
 Contexto:
-Dado que estou acessando a aplicacao
-Quando informo o usuario "teste@teste21.com"
-E a senha "teste"
-E seleciono entrar
-Entao visualizo a pagina inicial
-Quando seleciono Contas
-E seleciono Adicionar
+	Dado que desejo adicionar uma conta
 
 Esquema do Cenario: Deve validar regras cadrasto contas
-E informo a conta "<conta>"
-E seleciono Salvar
-Entao recebo a mensagem "<mensagem>"
+	Quando adiciono a conta "<conta>"
+	Entao recebo a mensagem "<mensagem>"
 
 Exemplos:
 	| conta 					| mensagem 																|
