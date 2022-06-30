@@ -14,16 +14,13 @@ Entao visualizo a pagina inicial
 Quando seleciono Contas
 E seleciono Adicionar
 
-Cenario: Deve inserir uma conta com sucesso
-E informo a conta "Conta de Teste"
+Esquema do Cenario: Deve validar regras cadrasto contas
+E informo a conta "<conta>"
 E seleciono Salvar
-Entao a conta e inserida com sucesso
+Entao recebo a mensagem "<mensagem>"
 
-Cenario: Nao deve inserir uma conta sem nome
-E seleciono Salvar
-Entao sou notificar que o nome da conta e obrigatorio
-
-Cenario: Nao deve inserir uma conta com nome já existente
-E informo a conta "Conta mesmo nome"
-E seleciono Salvar
-Entao sou notificado que ja existe uma conta com esse nome
+Exemplos:
+	| conta 					| mensagem 																|
+	| Conta de Teste	| Conta adicionada com sucesso!						|
+	| 								| Informe o nome da conta									|
+	| Conta mesmo nome| Já existe uma conta com esse nome!			|

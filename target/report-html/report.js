@@ -4,6 +4,54 @@ formatter.feature({
   "description": "Como um usuário \nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
   "keyword": "Funcionalidade"
 });
+formatter.scenarioOutline({
+  "name": "Deve validar regras cadrasto contas",
+  "description": "",
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "name": "informo a conta \"\u003cconta\u003e\"",
+  "keyword": "E "
+});
+formatter.step({
+  "name": "seleciono Salvar",
+  "keyword": "E "
+});
+formatter.step({
+  "name": "recebo a mensagem \"\u003cmensagem\u003e\"",
+  "keyword": "Entao "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Exemplos",
+  "rows": [
+    {
+      "cells": [
+        "conta",
+        "mensagem"
+      ]
+    },
+    {
+      "cells": [
+        "Conta de Teste",
+        "Conta adicionada com sucesso!"
+      ]
+    },
+    {
+      "cells": [
+        "",
+        "Informe o nome da conta"
+      ]
+    },
+    {
+      "cells": [
+        "Conta mesmo nome",
+        "Já existe uma conta com esse nome!"
+      ]
+    }
+  ]
+});
 formatter.background({
   "name": "",
   "description": "",
@@ -80,9 +128,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Deve inserir uma conta com sucesso",
+  "name": "Deve validar regras cadrasto contas",
   "description": "",
-  "keyword": "Cenario"
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "informo a conta \"Conta de Teste\"",
@@ -105,11 +153,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "a conta e inserida com sucesso",
+  "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
   "keyword": "Entao "
 });
 formatter.match({
-  "location": "InserirContasSteps.aContaEInseridaComSucesso()"
+  "location": "InserirContasSteps.receboAMensagem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -193,9 +241,19 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Nao deve inserir uma conta sem nome",
+  "name": "Deve validar regras cadrasto contas",
   "description": "",
-  "keyword": "Cenario"
+  "keyword": "Esquema do Cenario"
+});
+formatter.step({
+  "name": "informo a conta \"\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "InserirContasSteps.informoAConta(String)"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
   "name": "seleciono Salvar",
@@ -208,11 +266,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "sou notificar que o nome da conta e obrigatorio",
+  "name": "recebo a mensagem \"Informe o nome da conta\"",
   "keyword": "Entao "
 });
 formatter.match({
-  "location": "InserirContasSteps.souNotificarQueONomeDaContaEObrigatorio()"
+  "location": "InserirContasSteps.receboAMensagem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -296,9 +354,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Nao deve inserir uma conta com nome já existente",
+  "name": "Deve validar regras cadrasto contas",
   "description": "",
-  "keyword": "Cenario"
+  "keyword": "Esquema do Cenario"
 });
 formatter.step({
   "name": "informo a conta \"Conta mesmo nome\"",
@@ -321,11 +379,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "sou notificado que ja existe uma conta com esse nome",
+  "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",
   "keyword": "Entao "
 });
 formatter.match({
-  "location": "InserirContasSteps.souNotificadoQueJaExisteUmaContaComEsseNome()"
+  "location": "InserirContasSteps.receboAMensagem(String)"
 });
 formatter.result({
   "status": "passed"

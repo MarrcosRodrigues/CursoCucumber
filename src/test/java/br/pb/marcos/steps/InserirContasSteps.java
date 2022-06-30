@@ -78,8 +78,14 @@ public class InserirContasSteps {
 	//Nao deve inserir uma conta com nome já existente
 	@Entao("sou notificado que ja existe uma conta com esse nome")
 	public void souNotificadoQueJaExisteUmaContaComEsseNome() {
-		String texto = driver.findElement(By.xpath("//div[@class='alert alert-danger']")).getText(); 
+		String texto = driver.findElement(By.xpath("//div[starts-with(@class, 'alert alert-')]")).getText(); 
 		Assert.assertEquals("Já existe uma conta com esse nome!", texto);
+	}
+	
+	@Entao("recebo a mensagem {string}")
+	public void receboAMensagem(String string) {
+		String texto = driver.findElement(By.xpath("//div[starts-with(@class, 'alert alert-')]")).getText(); 
+		Assert.assertEquals(string, texto);
 	}
 	
 	@After

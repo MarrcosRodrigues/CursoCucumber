@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		glue = "br.pb.marcos.steps",
 		plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
 		tags = {"~@ignore"},
-		monochrome = false,
+		monochrome = true,
 		snippets = SnippetType.CAMELCASE,
 		dryRun = false,
 		strict = false
