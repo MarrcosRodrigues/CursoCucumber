@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4395995900,
+              "duration": 4037842200,
               "status": "passed"
             },
             "line": 9,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 60869000,
+              "duration": 62995800,
               "status": "passed"
             },
             "line": 10,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 19031200,
+              "duration": 19474600,
               "status": "passed"
             },
             "line": 11,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 498091300,
+              "duration": 493637500,
               "status": "passed"
             },
             "line": 12,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 25376800,
+              "duration": 24135200,
               "status": "passed"
             },
             "line": 13,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 246609000,
+              "duration": 246214300,
               "status": "passed"
             },
             "line": 14,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 195675700,
+              "duration": 198150800,
               "status": "passed"
             },
             "line": 15,
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T23:06:47.491Z",
+        "start_timestamp": "2022-06-30T23:32:45.112Z",
         "line": 24,
         "name": "Deve validar regras cadrasto contas",
         "description": "",
@@ -116,7 +116,16 @@
         "after": [
           {
             "result": {
-              "duration": 2815751200,
+              "duration": 62964200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2884092800,
               "status": "passed"
             },
             "match": {
@@ -129,7 +138,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32308600,
+              "duration": 36396300,
               "status": "passed"
             },
             "line": 18,
@@ -147,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 352113900,
+              "duration": 375713200,
               "status": "passed"
             },
             "line": 19,
@@ -159,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 24935500,
+              "duration": 15047000,
               "status": "passed"
             },
             "line": 20,
@@ -186,7 +195,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3708364000,
+              "duration": 4217565200,
               "status": "passed"
             },
             "line": 9,
@@ -198,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 64269300,
+              "duration": 62765900,
               "status": "passed"
             },
             "line": 10,
@@ -216,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 19344700,
+              "duration": 19847200,
               "status": "passed"
             },
             "line": 11,
@@ -234,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 478146400,
+              "duration": 477702000,
               "status": "passed"
             },
             "line": 12,
@@ -246,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 23165000,
+              "duration": 22601100,
               "status": "passed"
             },
             "line": 13,
@@ -258,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 237570300,
+              "duration": 237582500,
               "status": "passed"
             },
             "line": 14,
@@ -270,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 178427500,
+              "duration": 180561600,
               "status": "passed"
             },
             "line": 15,
@@ -283,7 +292,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T23:06:56.187Z",
+        "start_timestamp": "2022-06-30T23:32:53.598Z",
         "line": 25,
         "name": "Deve validar regras cadrasto contas",
         "description": "",
@@ -291,7 +300,16 @@
         "after": [
           {
             "result": {
-              "duration": 3214474000,
+              "duration": 40235900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2823028000,
               "status": "passed"
             },
             "match": {
@@ -304,7 +322,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19637300,
+              "duration": 17234700,
               "status": "passed"
             },
             "line": 18,
@@ -322,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 186130900,
+              "duration": 197180300,
               "status": "passed"
             },
             "line": 19,
@@ -334,7 +352,7 @@
           },
           {
             "result": {
-              "duration": 14053600,
+              "duration": 15299100,
               "status": "passed"
             },
             "line": 20,
@@ -361,7 +379,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3829816800,
+              "duration": 3721470000,
               "status": "passed"
             },
             "line": 9,
@@ -373,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 60091200,
+              "duration": 59589800,
               "status": "passed"
             },
             "line": 10,
@@ -391,7 +409,7 @@
           },
           {
             "result": {
-              "duration": 18620500,
+              "duration": 18783300,
               "status": "passed"
             },
             "line": 11,
@@ -409,7 +427,7 @@
           },
           {
             "result": {
-              "duration": 466941600,
+              "duration": 466510400,
               "status": "passed"
             },
             "line": 12,
@@ -421,7 +439,7 @@
           },
           {
             "result": {
-              "duration": 21952800,
+              "duration": 24815400,
               "status": "passed"
             },
             "line": 13,
@@ -433,7 +451,7 @@
           },
           {
             "result": {
-              "duration": 240110900,
+              "duration": 248919900,
               "status": "passed"
             },
             "line": 14,
@@ -445,7 +463,7 @@
           },
           {
             "result": {
-              "duration": 177300200,
+              "duration": 183778500,
               "status": "passed"
             },
             "line": 15,
@@ -458,7 +476,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T23:07:04.338Z",
+        "start_timestamp": "2022-06-30T23:33:01.917Z",
         "line": 26,
         "name": "Deve validar regras cadrasto contas",
         "description": "",
@@ -466,7 +484,16 @@
         "after": [
           {
             "result": {
-              "duration": 2827492600,
+              "duration": 38249700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2832450700,
               "status": "passed"
             },
             "match": {
@@ -479,7 +506,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31568400,
+              "duration": 40407000,
               "status": "passed"
             },
             "line": 18,
@@ -497,7 +524,7 @@
           },
           {
             "result": {
-              "duration": 204718900,
+              "duration": 179276000,
               "status": "passed"
             },
             "line": 19,
@@ -509,7 +536,7 @@
           },
           {
             "result": {
-              "duration": 14033300,
+              "duration": 15623500,
               "status": "passed"
             },
             "line": 20,

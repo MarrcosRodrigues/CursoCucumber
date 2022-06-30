@@ -165,6 +165,9 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "",
   "description": "",
@@ -278,6 +281,9 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "",
   "description": "",
@@ -386,6 +392,9 @@ formatter.match({
   "location": "InserirContasSteps.receboAMensagem(String)"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.after({
