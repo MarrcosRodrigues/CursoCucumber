@@ -95,7 +95,7 @@ public class InserirContasSteps {
 		Assert.assertEquals(string, texto);
 	}
 	
-	@After(order = 1)
+	@After(order = 1, value = "@funcionais")
 	public void screenshot(Scenario cenario) {
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
@@ -106,7 +106,7 @@ public class InserirContasSteps {
 	}
 	
 	
-	@After(order = 0)
+	@After(order = 0, value = "@funcionais")
 	public void fecharBrowser() {
 		driver.quit();
 	}

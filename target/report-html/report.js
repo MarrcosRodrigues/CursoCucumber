@@ -2,7 +2,12 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "Cadastro de contas",
   "description": "Como um usuário \nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
-  "keyword": "Funcionalidade"
+  "keyword": "Funcionalidade",
+  "tags": [
+    {
+      "name": "@funcionais"
+    }
+  ]
 });
 formatter.scenarioOutline({
   "name": "Deve validar regras cadrasto contas",
@@ -130,7 +135,12 @@ formatter.result({
 formatter.scenario({
   "name": "Deve validar regras cadrasto contas",
   "description": "",
-  "keyword": "Esquema do Cenario"
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcionais"
+    }
+  ]
 });
 formatter.step({
   "name": "informo a conta \"Conta de Teste\"",
@@ -246,7 +256,12 @@ formatter.result({
 formatter.scenario({
   "name": "Deve validar regras cadrasto contas",
   "description": "",
-  "keyword": "Esquema do Cenario"
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcionais"
+    }
+  ]
 });
 formatter.step({
   "name": "informo a conta \"\"",
@@ -362,7 +377,12 @@ formatter.result({
 formatter.scenario({
   "name": "Deve validar regras cadrasto contas",
   "description": "",
-  "keyword": "Esquema do Cenario"
+  "keyword": "Esquema do Cenario",
+  "tags": [
+    {
+      "name": "@funcionais"
+    }
+  ]
 });
 formatter.step({
   "name": "informo a conta \"Conta mesmo nome\"",

@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 8,
+        "line": 9,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4037842200,
+              "duration": 4218325700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "que estou acessando a aplicacao",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicacao()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 62995800,
+              "duration": 71261600,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "informo o usuario \"teste@teste21.com\"",
             "match": {
               "arguments": [
@@ -41,10 +41,10 @@
           },
           {
             "result": {
-              "duration": 19474600,
+              "duration": 29013100,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -59,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 493637500,
+              "duration": 493902300,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -71,10 +71,10 @@
           },
           {
             "result": {
-              "duration": 24135200,
+              "duration": 33000300,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "visualizo a pagina inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPaginaInicial()"
@@ -83,10 +83,10 @@
           },
           {
             "result": {
-              "duration": 246214300,
+              "duration": 249131100,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -95,10 +95,10 @@
           },
           {
             "result": {
-              "duration": 198150800,
+              "duration": 187678000,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
@@ -108,15 +108,15 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T23:32:45.112Z",
-        "line": 24,
+        "start_timestamp": "2022-06-30T23:42:58.020Z",
+        "line": 25,
         "name": "Deve validar regras cadrasto contas",
         "description": "",
         "id": "cadastro-de-contas;deve-validar-regras-cadrasto-contas;;2",
         "after": [
           {
             "result": {
-              "duration": 62964200,
+              "duration": 64806900,
               "status": "passed"
             },
             "match": {
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 2884092800,
+              "duration": 2912173200,
               "status": "passed"
             },
             "match": {
@@ -138,10 +138,10 @@
         "steps": [
           {
             "result": {
-              "duration": 36396300,
+              "duration": 36198300,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "informo a conta \"Conta de Teste\"",
             "match": {
               "arguments": [
@@ -156,10 +156,10 @@
           },
           {
             "result": {
-              "duration": 375713200,
+              "duration": 346153100,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "seleciono Salvar",
             "match": {
               "location": "InserirContasSteps.selecionoSalvar()"
@@ -168,10 +168,10 @@
           },
           {
             "result": {
-              "duration": 15047000,
+              "duration": 16270600,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
             "match": {
               "arguments": [
@@ -184,10 +184,15 @@
             },
             "keyword": "Entao "
           }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
         ]
       },
       {
-        "line": 8,
+        "line": 9,
         "name": "",
         "description": "",
         "type": "background",
@@ -195,10 +200,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4217565200,
+              "duration": 4035381700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "que estou acessando a aplicacao",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicacao()"
@@ -207,10 +212,10 @@
           },
           {
             "result": {
-              "duration": 62765900,
+              "duration": 83142400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "informo o usuario \"teste@teste21.com\"",
             "match": {
               "arguments": [
@@ -225,10 +230,10 @@
           },
           {
             "result": {
-              "duration": 19847200,
+              "duration": 20848500,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -243,10 +248,10 @@
           },
           {
             "result": {
-              "duration": 477702000,
+              "duration": 509756600,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -255,10 +260,10 @@
           },
           {
             "result": {
-              "duration": 22601100,
+              "duration": 23661700,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "visualizo a pagina inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPaginaInicial()"
@@ -267,10 +272,10 @@
           },
           {
             "result": {
-              "duration": 237582500,
+              "duration": 252449500,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -279,10 +284,10 @@
           },
           {
             "result": {
-              "duration": 180561600,
+              "duration": 193317600,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
@@ -292,15 +297,15 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T23:32:53.598Z",
-        "line": 25,
+        "start_timestamp": "2022-06-30T23:43:06.712Z",
+        "line": 26,
         "name": "Deve validar regras cadrasto contas",
         "description": "",
         "id": "cadastro-de-contas;deve-validar-regras-cadrasto-contas;;3",
         "after": [
           {
             "result": {
-              "duration": 40235900,
+              "duration": 43403400,
               "status": "passed"
             },
             "match": {
@@ -309,7 +314,7 @@
           },
           {
             "result": {
-              "duration": 2823028000,
+              "duration": 2876155700,
               "status": "passed"
             },
             "match": {
@@ -322,10 +327,10 @@
         "steps": [
           {
             "result": {
-              "duration": 17234700,
+              "duration": 18971200,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "informo a conta \"\"",
             "match": {
               "arguments": [
@@ -340,10 +345,10 @@
           },
           {
             "result": {
-              "duration": 197180300,
+              "duration": 188751900,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "seleciono Salvar",
             "match": {
               "location": "InserirContasSteps.selecionoSalvar()"
@@ -352,10 +357,10 @@
           },
           {
             "result": {
-              "duration": 15299100,
+              "duration": 13282000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "recebo a mensagem \"Informe o nome da conta\"",
             "match": {
               "arguments": [
@@ -368,10 +373,15 @@
             },
             "keyword": "Entao "
           }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
         ]
       },
       {
-        "line": 8,
+        "line": 9,
         "name": "",
         "description": "",
         "type": "background",
@@ -379,10 +389,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3721470000,
+              "duration": 5097856700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "que estou acessando a aplicacao",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicacao()"
@@ -391,10 +401,10 @@
           },
           {
             "result": {
-              "duration": 59589800,
+              "duration": 96045700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "informo o usuario \"teste@teste21.com\"",
             "match": {
               "arguments": [
@@ -409,10 +419,10 @@
           },
           {
             "result": {
-              "duration": 18783300,
+              "duration": 26392300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -427,10 +437,10 @@
           },
           {
             "result": {
-              "duration": 466510400,
+              "duration": 498218400,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -439,10 +449,10 @@
           },
           {
             "result": {
-              "duration": 24815400,
+              "duration": 25650900,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "visualizo a pagina inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPaginaInicial()"
@@ -451,10 +461,10 @@
           },
           {
             "result": {
-              "duration": 248919900,
+              "duration": 248852000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -463,10 +473,10 @@
           },
           {
             "result": {
-              "duration": 183778500,
+              "duration": 194659500,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
@@ -476,15 +486,15 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-30T23:33:01.917Z",
-        "line": 26,
+        "start_timestamp": "2022-06-30T23:43:14.978Z",
+        "line": 27,
         "name": "Deve validar regras cadrasto contas",
         "description": "",
         "id": "cadastro-de-contas;deve-validar-regras-cadrasto-contas;;4",
         "after": [
           {
             "result": {
-              "duration": 38249700,
+              "duration": 42688200,
               "status": "passed"
             },
             "match": {
@@ -493,7 +503,7 @@
           },
           {
             "result": {
-              "duration": 2832450700,
+              "duration": 2988236600,
               "status": "passed"
             },
             "match": {
@@ -506,10 +516,10 @@
         "steps": [
           {
             "result": {
-              "duration": 40407000,
+              "duration": 35486400,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "informo a conta \"Conta mesmo nome\"",
             "match": {
               "arguments": [
@@ -524,10 +534,10 @@
           },
           {
             "result": {
-              "duration": 179276000,
+              "duration": 203276700,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "seleciono Salvar",
             "match": {
               "location": "InserirContasSteps.selecionoSalvar()"
@@ -536,10 +546,10 @@
           },
           {
             "result": {
-              "duration": 15623500,
+              "duration": 21132800,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",
             "match": {
               "arguments": [
@@ -552,6 +562,11 @@
             },
             "keyword": "Entao "
           }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
         ]
       }
     ],
@@ -560,6 +575,15 @@
     "id": "cadastro-de-contas",
     "keyword": "Funcionalidade",
     "uri": "file:src/test/resources/features/inserir_conta.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@funcionais",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
